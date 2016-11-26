@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>暖思后台管理</title>
+		<link rel="shortcut icon" href="../img/7.ico"/>
+	</head>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+			list-style: none;
+		}
+		#deng{
+			border-radius: 5px;
+			height: 300px;
+			width: 400px;
+			margin: 100px auto;
+			position: relative;
+			background:#8e83fc;
+			background:linear-gradient(#8e83fc 0%,#4531f9 50%,#8e83fc 100%);
+		}
+		#deng ul{
+			width: 200px;
+			position: absolute;
+			left: 50%;
+			margin-left: -120px;
+			top: 46px;
+		}
+		#deng ul li{
+			width: 250px;
+			height: 70px;
+			line-height: 70px;
+			
+			text-align: center;
+		}
+		#usern{
+			height: 30px;
+			width:220px;
+			border-radius: 5px;
+		}
+		#mima{
+			height: 30px;
+			width:220px;
+			border-radius: 5px;
+		}
+		#de{
+			height: 40px;
+			width: 150px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			background: #68b946;
+			color: white;
+			font-family: "微软雅黑";
+			font-size: 15px;
+		}
+	</style>
+	<body>
+		<div id="deng">
+			<form action="logo.php" method="post">
+				
+		
+			<ul>
+				<li><input type="text" name="usern" id="usern" placeholder="用户名" required="required" value="" /></li>
+				<li><input type="password" name="mima" id="mima" placeholder="密码" value="" required="required"/></li>
+				<li><input type="submit" name="" id="de" value="立即登录" /><br><a href="../index.php" style="position:relative;color:black;bottom: 25px;">返回</a></li>
+			</ul>
+				</form>
+		</div>
+	</body>
+</html>
